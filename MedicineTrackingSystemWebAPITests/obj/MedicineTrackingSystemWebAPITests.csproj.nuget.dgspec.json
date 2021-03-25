@@ -1,0 +1,248 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\repo\\MedicineTrackingSystem\\MedicineTrackingSystemWebAPITests\\MedicineTrackingSystemWebAPITests.csproj": {}
+  },
+  "projects": {
+    "D:\\repo\\MedicineTrackingSystem\\MedicineTrackerMVC\\MedicineTrackerMVC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\repo\\MedicineTrackingSystem\\MedicineTrackerMVC\\MedicineTrackerMVC.csproj",
+        "projectName": "MedicineTrackerMVC",
+        "projectPath": "D:\\repo\\MedicineTrackingSystem\\MedicineTrackerMVC\\MedicineTrackerMVC.csproj",
+        "packagesPath": "C:\\Users\\Anish Rawal\\.nuget\\packages\\",
+        "outputPath": "D:\\repo\\MedicineTrackingSystem\\MedicineTrackerMVC\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "D:\\repo\\NuGet.Config",
+          "C:\\Users\\Anish Rawal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://vanguard-docker.docker-reg.bddevops.io/artifactory/api/nuget/bd-logistics-nuget": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNet.WebApi.Client": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\repo\\MedicineTrackingSystem\\MedicineTrackingSystemWebAPITests\\MedicineTrackingSystemWebAPITests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\repo\\MedicineTrackingSystem\\MedicineTrackingSystemWebAPITests\\MedicineTrackingSystemWebAPITests.csproj",
+        "projectName": "MedicineTrackingSystemWebAPITests",
+        "projectPath": "D:\\repo\\MedicineTrackingSystem\\MedicineTrackingSystemWebAPITests\\MedicineTrackingSystemWebAPITests.csproj",
+        "packagesPath": "C:\\Users\\Anish Rawal\\.nuget\\packages\\",
+        "outputPath": "D:\\repo\\MedicineTrackingSystem\\MedicineTrackingSystemWebAPITests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "D:\\repo\\NuGet.Config",
+          "C:\\Users\\Anish Rawal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://vanguard-docker.docker-reg.bddevops.io/artifactory/api/nuget/bd-logistics-nuget": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\repo\\MedicineTrackingSystem\\MedicineTrackingSystemWebAPI\\MedicineTrackingSystemWebAPI.csproj": {
+                "projectPath": "D:\\repo\\MedicineTrackingSystem\\MedicineTrackingSystemWebAPI\\MedicineTrackingSystemWebAPI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.16.1, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\repo\\MedicineTrackingSystem\\MedicineTrackingSystemWebAPI\\MedicineTrackingSystemWebAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\repo\\MedicineTrackingSystem\\MedicineTrackingSystemWebAPI\\MedicineTrackingSystemWebAPI.csproj",
+        "projectName": "MedicineTrackingSystemWebAPI",
+        "projectPath": "D:\\repo\\MedicineTrackingSystem\\MedicineTrackingSystemWebAPI\\MedicineTrackingSystemWebAPI.csproj",
+        "packagesPath": "C:\\Users\\Anish Rawal\\.nuget\\packages\\",
+        "outputPath": "D:\\repo\\MedicineTrackingSystem\\MedicineTrackingSystemWebAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "D:\\repo\\NuGet.Config",
+          "C:\\Users\\Anish Rawal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://vanguard-docker.docker-reg.bddevops.io/artifactory/api/nuget/bd-logistics-nuget": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\repo\\MedicineTrackingSystem\\MedicineTrackerMVC\\MedicineTrackerMVC.csproj": {
+                "projectPath": "D:\\repo\\MedicineTrackingSystem\\MedicineTrackerMVC\\MedicineTrackerMVC.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
